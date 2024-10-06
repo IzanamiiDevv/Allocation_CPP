@@ -20,4 +20,10 @@ void* memalloc(size_t s, unsigned char* count) {
     (*count)++;
     return malloc(s);
 }
+
+void* memrealloc(void* _Block, size_t _Size, unsigned char* count) {
+    (*count)++;
+    return realloc(_Block, _Size);
+}
+
 #endif
