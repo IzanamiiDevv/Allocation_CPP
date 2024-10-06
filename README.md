@@ -1,2 +1,2 @@
 # Allocation_CPP
-A C++ Library that counts Allocated Memorry.
+A C/C++ Library that counts Allocated Memorry.
